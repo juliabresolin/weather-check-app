@@ -1,17 +1,13 @@
 import React from 'react';
-import keys from '../../config/app.env';
+import { View, Text } from 'react-native';
+
+import getCurrentWeather from '../../utils/getCurrentWeather';
 
 import styles from './styles';
-import { View, Text } from 'react-native';
 
 function Home() {
 
-  function getLocation() {
-    const test = keys.openweather_api;
-    console.log(test)
-  }
-
-  getLocation();
+  getCurrentWeather();
 
   return (
     <View style={styles.container}>
