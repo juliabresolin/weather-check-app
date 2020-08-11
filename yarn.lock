@@ -992,6 +992,16 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@expo-google-fonts/archivo@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/archivo/-/archivo-0.1.0.tgz#3ed76d5ef3c6ceb711646fda0a5e6eeda8d08def"
+  integrity sha512-OWevCTcQOKDJHWpLbnDEonGSbs4RjxrahbQY/n7XdZm+ys0NQkdk9mL2m4+Ivpi3RYsJRaWv5ISNCi00OjmfcA==
+
+"@expo-google-fonts/dm-sans@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/dm-sans/-/dm-sans-0.1.0.tgz#51d73331d9e2383e203193d5c09e3399f802e3ba"
+  integrity sha512-zKZeh7Mihld4Mm21eiOs3pgXE3dpiEL57Q7lJXAtok1wLtkbA3SFfr9IhwYL5CXFxje40ikkpKBLEnvGyJ191Q==
+
 "@expo/configure-splash-screen@0.1.13":
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/@expo/configure-splash-screen/-/configure-splash-screen-0.1.13.tgz#9f974146d716ffc03461e4d2deb7bfb22826e56a"

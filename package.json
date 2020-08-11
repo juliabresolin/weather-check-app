@@ -8,9 +8,12 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo-google-fonts/archivo": "^0.1.0",
+    "@expo-google-fonts/dm-sans": "^0.1.0",
     "@react-native-community/async-storage": "^1.11.0",
     "axios": "^0.19.2",
     "expo": "~38.0.8",
+    "expo-font": "~8.2.1",
     "expo-status-bar": "^1.0.2",
     "react": "~16.11.0",
     "react-dom": "~16.11.0",
