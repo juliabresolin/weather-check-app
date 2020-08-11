@@ -16,7 +16,7 @@ function getGeolocation() {
   function getCordinates() {
     navigator.geolocation.getCurrentPosition(
       currentPosition => {
-        console.log(currentPosition)
+        // console.log(currentPosition)
         setPosition({
           latitude: currentPosition.coords.latitude,
           longitude: currentPosition.coords.longitude
