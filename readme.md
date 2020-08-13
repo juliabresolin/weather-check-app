@@ -10,7 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-run-project">Run project</a>&nbsp;&nbsp;&nbsp;
 </p>
 <br>
 
@@ -41,7 +43,7 @@ The layout was developed by me and was based on a minimalist, clean layout with 
   - **View on physical device:** Install the Expo app (or Expo CLI on Android) and scan the QR Code with your camera.
   - **View on emulator:** Install the Expo application on the emulator, and on the open tab after running the server, select the option: **Run on Android device/ emulator**.
 
-  (:warning: Remember that both devices(server and physical device) must be on the same network).
+  :warning: Remember that both devices(server and physical device) must be on the same network.
 
 ---
 
