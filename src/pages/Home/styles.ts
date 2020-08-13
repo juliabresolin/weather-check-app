@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     paddingHorizontal: 24,
-    paddingVertical: 40
+    paddingVertical: 48
   },
 
   header: {
@@ -18,10 +18,10 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontFamily: 'Archivo_700Bold',
-    fontSize: 24,
+    fontFamily: 'DMSans_700Bold',
+    fontSize: 28,
     color: '#222222',
-    lineHeight: 28,
+    lineHeight: 32,
   },
 
   date: {
@@ -34,17 +34,12 @@ const styles = StyleSheet.create({
   temperatureContainer: {
     justifyContent: 'center',
     alignItems: 'center',
-    padding: 24,
-  },
-
-  weatherIcon: {
-    width: 96,
-    height: 96,
+    paddingVertical: '24%',
   },
 
   temperature: {
     fontFamily: 'DMSans_700Bold',
-    fontSize: 64,
+    fontSize: 112,
     color: '#222',
     marginLeft: 28,
   },
@@ -52,15 +47,29 @@ const styles = StyleSheet.create({
   weatherDescription: {
     fontFamily: 'DMSans_400Regular',
     color: '#B5B5B5',
-    fontSize: 18,
+    fontSize: 24,
     textTransform: 'capitalize'
   },
 
-  optionsContainer: {
+  optionContent: {
+    height: 36,
     flexDirection: 'row',
-    flexWrap: 'wrap',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    borderBottomWidth: 1,
+    borderColor: '#f0f0f7'
+  },
+
+  optionDescription: {
+    fontFamily: 'DMSans_400Regular',
+    color: '#b5b5b5',
+    fontSize: 16
+  },
+
+  optionValue: {
+    fontFamily: 'DMSans_700Bold',
+    color: '#222',
+    fontSize: 16
   }
 
 
